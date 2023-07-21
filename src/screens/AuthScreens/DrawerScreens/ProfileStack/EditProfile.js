@@ -1,25 +1,19 @@
-import {
-  Pressable,
-  SafeAreaView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import {Pressable, StatusBar, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import CustomHeader from '../../../components/customHeader';
-import {COLORS} from '../../../assets/color';
-import {FONTS} from '../../../assets/fontFamily';
+import {SafeAreaView} from 'react-native';
+import CustomHeader from '../../../../components/customHeader';
+import {COLORS} from '../../../../assets/color';
+import {FONTS} from '../../../../assets/fontFamily';
 
-const MyProfile = ({navigation}) => {
+const EditProfile = ({navigation}) => {
   return (
     <SafeAreaView style={[styles.safeAreaView]}>
-      <CustomHeader navigation={navigation} headerName="My Profile" />
+      <CustomHeader navigation={navigation} headerName="Edit Profile" />
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-        <Text style={styles.hiText}>My Profile</Text>
+        <Text style={styles.hiText}>Edit Profile</Text>
         <Pressable
           onPress={() => {
-            navigation.navigate('EditProfileScreen');
+            navigation.navigate('VerifyProfileScreen');
           }}>
           <Text>Press me</Text>
         </Pressable>
@@ -29,7 +23,7 @@ const MyProfile = ({navigation}) => {
   );
 };
 
-export default MyProfile;
+export default EditProfile;
 
 const styles = StyleSheet.create({
   safeAreaView: {

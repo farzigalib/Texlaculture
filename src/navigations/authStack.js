@@ -1,8 +1,10 @@
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import React from 'react';
 import OnBoarding from '../screens/NoAuthScreen/onBoarding';
 import SplashScreen from '../screens/SplashScreen';
 import TabStack from './tabStack';
+import CreateSpace from '../screens/AuthScreens/TabScreens/SpaceStack/CreateStack';
+import EditSpace from '../screens/AuthScreens/TabScreens/SpaceStack/EditSpace';
 
 const Stack = createNativeStackNavigator();
 
@@ -24,9 +26,18 @@ const AuthStack = () => {
         component={TabStack}
         options={{headerShown: false}}
       />
+      <Stack.Screen
+        name="CreateSpaceScreen"
+        component={CreateSpace}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="EditSpaceScreen"
+        component={EditSpace}
+        options={{headerShown: false}}
+      />
     </Stack.Navigator>
   );
 };
 
 export default AuthStack;
-

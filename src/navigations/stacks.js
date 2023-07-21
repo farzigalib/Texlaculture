@@ -21,6 +21,8 @@ import StatutoryDetails from '../screens/AuthScreens/DrawerScreens/StatutoryDeta
 import AuthStack from './authStack';
 import {Avatar} from 'native-base';
 import Clipboard from '@react-native-clipboard/clipboard';
+import EditProfile from '../screens/AuthScreens/DrawerScreens/ProfileStack/EditProfile';
+import ProfileStack from '../screens/AuthScreens/DrawerScreens/ProfileStack/ProfileStack';
 
 const Drawer = createDrawerNavigator();
 
@@ -396,11 +398,18 @@ const Stacks = () => {
       />
       <Drawer.Screen
         name="MyProfileScreen"
-        component={MyProfile}
+        component={ProfileStack}
         options={{
           headerShown: false,
         }}
       />
+      {/* <Drawer.Screen
+        name="EditProfileScreen"
+        component={EditProfile}
+        options={{
+          headerShown: false,
+        }}
+      /> */}
       <Drawer.Screen
         name="FamilyDetailsScreen"
         component={FamilyDetails}

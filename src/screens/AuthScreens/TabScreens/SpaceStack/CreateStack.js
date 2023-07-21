@@ -1,25 +1,18 @@
-import {
-  Pressable,
-  SafeAreaView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
 import React from 'react';
-import CustomHeader from '../../../components/customHeader';
-import {COLORS} from '../../../assets/color';
-import {FONTS} from '../../../assets/fontFamily';
+import { Pressable, SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native';
+import { COLORS } from '../../../../assets/color';
+import { FONTS } from '../../../../assets/fontFamily';
+import CustomHeader from '../../../../components/customHeader';
 
-const MyProfile = ({navigation}) => {
+const CreateSpace = ({navigation}) => {
   return (
     <SafeAreaView style={[styles.safeAreaView]}>
-      <CustomHeader navigation={navigation} headerName="My Profile" />
+      <CustomHeader navigation={navigation} headerName="Create Space" />
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-        <Text style={styles.hiText}>My Profile</Text>
+        <Text style={styles.hiText}>Create Space</Text>
         <Pressable
           onPress={() => {
-            navigation.navigate('EditProfileScreen');
+            navigation.navigate('EditSpaceScreen');
           }}>
           <Text>Press me</Text>
         </Pressable>
@@ -29,7 +22,7 @@ const MyProfile = ({navigation}) => {
   );
 };
 
-export default MyProfile;
+export default CreateSpace;
 
 const styles = StyleSheet.create({
   safeAreaView: {

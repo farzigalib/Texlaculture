@@ -34,7 +34,7 @@ const SplashScreen = ({navigation}) => {
         </View>
       </LinearGradientBG>
 
-      <StatusBar backgroundColor={COLORS.white} barStyle="default" />
+      <StatusBar backgroundColor={COLORS.white} barStyle="dark-content" />
     </SafeAreaView>
   );
 };

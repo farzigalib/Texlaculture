@@ -1,13 +1,27 @@
-import {SafeAreaView, StatusBar, StyleSheet, Text, View} from 'react-native';
+import {
+  Pressable,
+  SafeAreaView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 import React from 'react';
 import {COLORS} from '../../../assets/color';
 import {FONTS} from '../../../assets/fontFamily';
 
-const MySpace = () => {
+const MySpace = ({navigation}) => {
   return (
     <SafeAreaView style={[styles.safeAreaView]}>
       <View>
         <Text style={styles.hiText}>My Space</Text>
+        <Pressable
+          style={{alignItems: 'center'}}
+          onPress={() => {
+            navigation.navigate('CreateSpaceScreen');
+          }}>
+          <Text>Press me</Text>
+        </Pressable>
       </View>
       <StatusBar backgroundColor={COLORS.white} barStyle="dark-content" />
     </SafeAreaView>
