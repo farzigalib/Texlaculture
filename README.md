@@ -29,26 +29,26 @@ Run App in Android
 
 Splash Screen
 
-![Splace Screen](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Splace Screen](https://raw.githubusercontent.com/farzigalib/Texlaculture/master/screenshots/Screenshot_20230722-024104_texlaculture.jpg)
 
 
 Auth Screen
 
-![Getstart Screen](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Getstart Screen](https://raw.githubusercontent.com/farzigalib/Texlaculture/master/screenshots/Screenshot_20230722-024128_texlaculture.jpg)
 
-![Register Screen](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Register Screen](https://raw.githubusercontent.com/farzigalib/Texlaculture/master/screenshots/Screenshot_20230722-024158_texlaculture.jpg)
 
-![Login Screen](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Login Screen](https://raw.githubusercontent.com/farzigalib/Texlaculture/master/screenshots/Screenshot_20230722-024219_texlaculture.jpg)
 
 
 Home Screen with Bottom tabs
 
-![Bottom Tab Screen](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Bottom Tab Screen](https://raw.githubusercontent.com/farzigalib/Texlaculture/master/screenshots/Screenshot_20230722-024335_texlaculture.jpg)
 
 
 Home Screen with Drawer
 
-![Drawer Screen](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Drawer Screen](https://raw.githubusercontent.com/farzigalib/Texlaculture/master/screenshots/Screenshot_20230722-024245_texlaculture.jpg)
 
 
 ## Authors
