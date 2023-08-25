@@ -3,7 +3,7 @@
 
 This React Native app features a delightful user experience with a splash screen, login screen, register screen, and a home screen equipped with both bottom tabs and a convenient drawer. The app allows seamless horizontal and vertical scrolling for enhanced navigation. To log in, simply use the mobile number "`9680464921`" and the pin "`1234`". Enjoy exploring the app's exciting functionalities and content!
 
-[Dounload APK](https://github.com/farzigalib/Texlaculture/raw/master/app-debug.apk)
+[Download APK](https://github.com/farzigalib/Texlaculture/raw/master/app-debug.apk)
 
 
 
